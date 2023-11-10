@@ -2,7 +2,7 @@ package ua.edu.ucu.lab.decorators;
 
 import ua.edu.ucu.lab.flower.Item;
 
-public class BasketDecorator extends ItemDecorator{
+public class BasketDecorator extends ItemDecorator {
     public BasketDecorator(Item item) {
         super(item);
     }
