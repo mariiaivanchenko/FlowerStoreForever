@@ -40,7 +40,7 @@ public class DecoratorsTest {
     }
     
     @Test
-    public void testRibbon(){
+    public void testRibbon() {
         String ribbonPrice = ribbon.getDescription();
         Assertions.assertTrue(ribbonPrice.contains("Ribbon price:"));
     }
